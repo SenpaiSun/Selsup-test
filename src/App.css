@@ -1,0 +1,61 @@
+.params-editor {
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.params-editor__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-top: 200px;
+  width: 300px;
+  height: max-content;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 1px 15px #000;
+  gap: 10px;
+}
+
+.params-editor__param {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  width: 100%;
+}
+
+.params-editor__param-value {
+  height: 20px;
+  border-radius: 6px;
+  border: 1px solid #000;
+  padding-left: 4px;
+}
+
+.params-editor__btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.params-editor__btn {
+  height: 30px;
+  width: 100%;
+  max-width: 220px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
+.params-editor__btn:hover {
+  background-color: #f1eded;
+  color: #000000;
+}
